@@ -148,7 +148,7 @@ class EventAthleteManager {
     private fun readPersonalBest(): Double? {
         while (true) {
             try {
-                print("Mejor marca personal: ")
+                print("Mejor marca personal (en Km): ")
                 val input = readLine()!!
                 if (!input.matches(Regex("^\\d*\\.?\\d+$"))) {
                     throw NumberFormatException("Solo se permiten números")
