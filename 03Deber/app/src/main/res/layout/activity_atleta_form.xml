@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNombreAtleta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Atleta" />
+
+    <EditText
+        android:id="@+id/etEdadAtleta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etMejorMarcaAtleta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mejor Marca"
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/cbRegistradoAtleta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Está Registrado?" />
+
+    <Button
+        android:id="@+id/btnGuardarAtleta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Guardar" />
+</LinearLayout>

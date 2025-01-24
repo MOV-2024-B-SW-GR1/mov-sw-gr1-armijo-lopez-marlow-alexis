@@ -13,6 +13,49 @@
         android:theme="@style/Theme.Sw2024bgr1_maal"
         tools:targetApi="31">
         <activity
+            android:name="DEBERIIB.VerAtletasActivity"
+            android:exported="false" />
+        <activity
+            android:name="DEBERIIB.EditarEventoActivity"
+            android:exported="false" />
+        <activity
+            android:name="DEBERIIB.CrearEventoActivity"
+            android:exported="false" />
+        <activity
+            android:name="DEBERIIB.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="DEBERIIB.item_atleta"
+            android:exported="false" />
+        <activity
+            android:name="DEBERIIB.item_evento"
+            android:exported="false" />
+        <activity
+            android:name="DEBERIIB.activity_atleta_form"
+            android:exported="false" />
+        <activity
+            android:name="DEBERIIB.activity_atletas"
+            android:exported="false" />
+        <activity
+            android:name="DEBERIIB.activity_evento_form"
+            android:exported="false" />
+        <activity
+            android:name="DEBERIIB.activity_lista_eventos"
+            android:exported="false" />
+        <activity
+            android:name="DEBERIIB.activity_editar_evento"
+            android:exported="false" />
+        <activity
+            android:name="DEBERIIB.activity_registrar_evento"
+            android:exported="false" />
+        <activity
+            android:name="DEBERIIB.activity_main2"
+            android:exported="false" />
+        <activity
+            android:name="DEBERIIB.ActividadGeneral"
+            android:exported="false" />
+        <activity android:name="DEBERIIB.RegistrarEventoActivity" />
+        <activity
             android:name=".ECrudEntrenador"
             android:exported="false" />
         <activity
