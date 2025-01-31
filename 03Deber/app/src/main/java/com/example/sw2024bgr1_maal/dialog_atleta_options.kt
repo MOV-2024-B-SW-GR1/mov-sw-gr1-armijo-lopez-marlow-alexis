@@ -24,7 +24,7 @@ class dialog_atleta_options : DialogFragment() {
             .setTitle("Opciones de Atleta")
             .setItems(opciones) { _, which ->
                 when (which) {
-                    0 -> listener?.onEditarClick()
+                     0-> listener?.onEditarClick()
                     1 -> listener?.onEliminarClick()
                 }
             }
