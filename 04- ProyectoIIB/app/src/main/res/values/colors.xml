@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="text_color">#000000</color>
+    <color name="purple_500">#FF6200EE</color>
+    <!-- Otros colores base de la app -->
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="gray">#B0B0B0</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="blue">#1877F2</color>
+
+
+
+</resources>
