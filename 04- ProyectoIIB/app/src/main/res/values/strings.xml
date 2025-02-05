@@ -9,4 +9,12 @@
         <item>Miercoles</item>
     </string-array>
 
+    <string name="logo_description" translatable="false">PetShop Logo</string>
+    <string name="search_button" translatable="false">Search</string>
+    <string name="notification_button" translatable="false">Notifications</string>
+    <string name="welcome_text" translatable="false">Hola, Bienvenido a PetShop</string>
+    <string name="category_title" translatable="false">Categoría</string>
+    <string name="see_all" translatable="false">Ver Todo</string>
+
+
 </resources>

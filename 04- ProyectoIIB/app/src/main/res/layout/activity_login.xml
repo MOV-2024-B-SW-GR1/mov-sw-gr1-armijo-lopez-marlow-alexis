@@ -60,19 +60,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Google"
-            android:textColor="@color/blue"
-            android:drawableLeft="@drawable/ic_google"
-            android:padding="12dp"
-            android:layout_marginEnd="8dp"/>
+            android:textAllCaps="false"  android:textColor="@color/blue"
+            android:textSize="16sp"  android:drawableLeft="@drawable/ic_google"
+            android:paddingStart="24dp"  android:paddingEnd="16dp"  android:paddingTop="12dp"  android:paddingBottom="12dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rounded_button_background_white" />
 
         <Button
             android:id="@+id/facebookLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Facebook"
+            android:textAllCaps="false"
             android:textColor="@color/blue"
+            android:textSize="16sp"
             android:drawableLeft="@drawable/ic_facebook"
-            android:padding="12dp"/>
+            android:paddingStart="24dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:background="@drawable/rounded_button_background_white" />
     </LinearLayout>
 
     <LinearLayout
@@ -101,9 +108,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ingresar"
-        android:background="@color/gray"
-        android:textColor="@color/white"
-        android:padding="12dp"
-        android:enabled="false"/>
+        android:textAllCaps="false"  android:textColor="@color/white"
+        android:textSize="16sp"  android:padding="12dp"
+        android:enabled="false"
+        android:background="@drawable/rounded_button_background" />
 
 </LinearLayout>
