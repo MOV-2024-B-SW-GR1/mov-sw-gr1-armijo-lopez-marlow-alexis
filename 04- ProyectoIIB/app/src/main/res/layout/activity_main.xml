@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp">
@@ -36,56 +37,56 @@
         android:id="@+id/descriptionText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:text="Obtén interesantes promociones aquí, registra tu cuenta de inmediato para que puedas satisfacer las necesidades de tus animales."
         android:textAlignment="center"
-        android:textSize="16sp"
         android:textColor="#666666"
-        app:layout_constraintTop_toBottomOf="@id/pawIcon"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="48dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pawIcon" />
 
     <LinearLayout
         android:id="@+id/dotsIndicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@id/descriptionText"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/descriptionText">
 
         <View
             android:layout_width="8dp"
             android:layout_height="8dp"
-            android:background="@drawable/dot_selected"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/dot_selected" />
 
         <View
             android:layout_width="8dp"
             android:layout_height="8dp"
-            android:background="@drawable/dot_unselected"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/dot_unselected" />
 
         <View
             android:layout_width="8dp"
             android:layout_height="8dp"
-            android:background="@drawable/dot_unselected"
-            android:layout_margin="4dp"/>
+            android:layout_margin="4dp"
+            android:background="@drawable/dot_unselected" />
     </LinearLayout>
 
     <Button
         android:id="@+id/startButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Comenzar"
-        android:padding="16dp"
-        android:textSize="16sp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:text="Comenzar"
         android:textColor="@android:color/white"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="32dp"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,6 +2,7 @@ package com.example.sw2024bgr1_maal
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -38,13 +39,17 @@ class LoginActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+            Log.d("Login", "Intentando iniciar sesión con email: $email y contraseña: $password")
+
             if (dbHelper.checkUser(email, password)) {
-                startActivity(Intent(this, MainActivity::class.java))
+                startActivity(Intent(this, home_activity::class.java))
                 finish()
             } else {
                 Toast.makeText(this, "Email o contraseña incorrectos", Toast.LENGTH_SHORT).show()
             }
         }
+
+
 
         registerLink.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
